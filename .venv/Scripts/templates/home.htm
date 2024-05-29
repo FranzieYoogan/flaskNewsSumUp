@@ -4,12 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    {% block styles %} <link rel="stylesheet" href="/static/css/home.css"> {% endblock %}
+    
 </head>
 <body>
 
     {% include "header.htm" %}
 
-    <h1>hey</h1>
+    <section class="containerAll">
+
+   
+
+    {% for item in dataArticle %}
+
+    <div class="containerItems">
+
+        <div>
+
+       
+            <div>
+                <h1 class="titleStyle">{{ item['title'] }} - {{ item['author'] }} - {{ item['publishedAt'] }}</h1>
+                
+            </div>
+            <div>
+               <p class="pStyle">{{ item['description'] }}</p> 
+            </div>
+           
+        </div>
+        </div>
+    {% endfor %}
+    
+</section>
 
 </body>
 </html>
