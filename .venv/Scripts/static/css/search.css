@@ -8,20 +8,30 @@
 
     display: flex !important;
     justify-content: center !important;
- 
+    margin-top: 5em;
 }
 
 .containerItems {
 
     width: 400px;
-
+    box-shadow: 0px 0px 4px 0px black;
+    padding: 30px;
+    border-radius: 10px;
 }
 
-button {
+.buttonStyle {
 
     width: 100%;
     position: relative;
     top: 1em;
+    background-color: #ed5565 !important;
+    font-weight: 900 !important;
+}
+
+.buttonStyle:hover, .buttonStyle:focus, .buttonStyle:active {
+
+    box-shadow: 2px 2px 2px black;
+
 
 }
 
@@ -44,5 +54,28 @@ input {
 .containerItemNews {
 
     width: 100%;
+    
+}
+
+.labelStyle {
+    
+    color: #ed5565 !important;
+    font-weight: 900 !important;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    font-weight: 900 !important;
+}
+
+
+input {
+
+    border: 1px solid black !important;
+    outline: none !important;
+}
+
+input:hover, input:active, input:focus {
+
+        border: 1px solid transparent !important;
+        box-shadow: 2px 2px 2px black !important;
 
 }
