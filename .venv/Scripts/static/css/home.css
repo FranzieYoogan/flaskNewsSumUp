@@ -11,6 +11,7 @@
     margin-top: 1em;
     margin-bottom: 1em;
     padding: 20px;
+    border-radius: 10px;
 }
 
 .titleStyle {
@@ -24,3 +25,29 @@
     font-style: italic;
 
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ed5565 ;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+
+  .imgStyle {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+  }
+  

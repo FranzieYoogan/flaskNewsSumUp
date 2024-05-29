@@ -82,3 +82,23 @@ input:hover, input:active, input:focus {
         box-shadow: 2px 2px 2px black !important;
 
 }
+
+
+/* scrool bar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ed5565 ;
+    border-radius: 10px;
+    border: 1px solid black;
+  }

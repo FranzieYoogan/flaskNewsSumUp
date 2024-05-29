@@ -1,12 +1,12 @@
 .navbarStyle {
 
     border-bottom: 2px solid black;
-    background-color: #ed5565;
+    background-color: #ed5565 !important;
 }
 
 .navbarStyle2 {
 
-    background-color: #ed5565;
+    background-color: #ed5565 !important;
 
 }
 

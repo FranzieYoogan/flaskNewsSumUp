@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
 
     {% block styles %} <link rel="stylesheet" href="/static/css/home.css"> {% endblock %}
     
@@ -29,6 +31,7 @@
             </div>
             <div>
                <p class="pStyle">{{ item['description'] }}</p> 
+               <img class="imgStyle" src="{{item['urlToImage']}}" alt="">
             </div>
            
         </div>
@@ -37,5 +40,6 @@
     
 </section>
 
+{% include "footer.htm" %}
 </body>
 </html>
