@@ -1,0 +1,48 @@
+.titleStyle {
+
+    font-weight: 900;
+    margin-bottom: 1em;
+}
+
+.containerAll {
+
+    display: flex !important;
+    justify-content: center !important;
+ 
+}
+
+.containerItems {
+
+    width: 400px;
+
+}
+
+button {
+
+    width: 100%;
+    position: relative;
+    top: 1em;
+
+}
+
+input {
+
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.containerNews {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.containerItemNews {
+
+    width: 100%;
+
+}
